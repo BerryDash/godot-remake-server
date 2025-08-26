@@ -3,6 +3,10 @@ require __DIR__ . '/../config/general.php';
 require __DIR__ . '/../incl/util.php';
 setPlainHeader();
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $ClientVer = $_POST['version'];
 
 # Possible access levels are: all, client, none
