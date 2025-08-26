@@ -21,4 +21,4 @@ if ($ClientVer == "1.0.0-beta") {
     $AccessLevel = "client";
 }
 
-echo $AccessLevel + ";" + $latestVersion;
+echo $AccessLevel . ";" . $latestVersion;
