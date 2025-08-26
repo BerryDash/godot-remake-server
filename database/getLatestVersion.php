@@ -12,9 +12,9 @@ $ClientVer = $_POST['version'];
 $AccessLevel = "";
 
 if ($ClientVer == "1.0.0-beta") {
-    $AccessLevel = "all"
+    $AccessLevel = "all";
 } else {
-    $AccessLevel = "client"
+    $AccessLevel = "client";
 }
 
 echo $AccessLevel + ";" + $latestVersion;
