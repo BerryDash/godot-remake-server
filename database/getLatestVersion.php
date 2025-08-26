@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$ClientVer = $_POST['version'];
+$ClientVer = $_GET['version'];
 
 # Possible access levels are: all, client, none
 # All means you can access the client and the servers
