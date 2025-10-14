@@ -11,7 +11,7 @@ $ClientVer = $_GET['version'];
 # None means you cant play the game
 $AccessLevel = "";
 
-if ($ClientVer == "1.0.0-beta") {
+if ($ClientVer == "1.0.0-beta" || $ClientVer == "1.0.0") {
     $AccessLevel = "all";
 } else {
     $AccessLevel = "client";
